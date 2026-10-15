@@ -1,0 +1,7 @@
+tracker_type: bytetrack
+track_high_thresh: 0.35   # confident detections used in 1st matching
+track_low_thresh: 0.1     # weak detections still used to keep tracks alive
+new_track_thresh: 0.5     # only confident detections can start a NEW id
+track_buffer: 90          # frames to keep a lost track alive (default 30)
+match_thresh: 0.9         # allow lower box overlap between frames (fast belt)
+fuse_score: True
